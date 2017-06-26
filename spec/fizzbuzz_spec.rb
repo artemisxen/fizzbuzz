@@ -16,4 +16,9 @@ describe 'fizzbuzz' do
   it 'returns the given number' do
     expect(fizzbuzz(4)).to eq 4
   end
+
+  it 'returns "fizzbuzz" when passed 30' do
+  expect(fizzbuzz(30)).to eq "fizzbuzz"
+  end
+
 end
